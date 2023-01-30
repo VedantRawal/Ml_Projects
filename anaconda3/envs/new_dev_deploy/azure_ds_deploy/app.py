@@ -50,5 +50,3 @@ def api_all():
     #return(jsonify(drug))
     return(jsonify(recommended_drug = drug))
 
-if __name__ == '__main__':
-    app.run(debug=True)
