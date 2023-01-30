@@ -48,5 +48,9 @@ def api_all():
     drug = predict_drug(Age, Sex, BP, Cholesterol, Na_to_K)
 
     #return(jsonify(drug))
+<<<<<<< HEAD
     return(jsonify(recommended_drug = drug))
 
+=======
+    return(jsonify(recommended_drug = drug))
+>>>>>>> master
